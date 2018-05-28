@@ -7,6 +7,7 @@ LEO Innovation Lab, Tech Talk June 1st 2018
 * Generators
 * Example: Addition
 * Example: Diamond Kata
+* Oddities
 * Types vs Tests
 
 ## A quote
