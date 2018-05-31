@@ -69,6 +69,8 @@ implicit lazy val myDateArb: Arbitrary[MyDate] =
   Arbitrary(badDateGenerator)
 forAll { (d: MyDate) => d.year < 2000}
 
+Gen.resultOf(MyDate.apply _).sample
+
 
 // what are arbitraries you say?
 val intGenerator = Arbitrary.arbInt.arbitrary
